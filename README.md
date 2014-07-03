@@ -11,5 +11,5 @@ Travis Setup
 1. Download the travis client. https://github.com/travis-ci/travis.rb.
 1. Login. `travis login --pro`
 1. Add the encrypted password for travis to clone this repo. By running this command in the same directory as `.travis.yml`. `travis encrypt 'OMNIA_CI_PASSWORD=...`.
-1. Add the encrypted artifactory password. By running this command in the same directory as `.travis.yml`. `travis encrypt 'ARTIFACTOET_PASSWORD=...`.
+1. Add the encrypted artifactory password. By running this command in the same directory as `.travis.yml`. `travis encrypt 'ARTIFACTORY_PASSWORD=...`.
 1. Enable the build by `travis enable -r [name]`.
